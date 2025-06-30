@@ -17,15 +17,15 @@ namespace ModuloUm.Aulas
              * ==============================
             ***/
 
-            sbyte tipoSbyte = 100; // range de -128 até 127
-            short tipoShort = 110; // range de -32768 até 32767
-            int tipoInt = 120; // range de -2**31 até 2**31-1
-            long tipoLong = 130L; // range de -2**63 até 2**63-1
+            sbyte tipoSbyte = 100;      // range de -128 até 127
+            short tipoShort = 110;      // range de -32768 até 32767
+            int tipoInt = 120;          // range de -2**31 até 2**31-1
+            long tipoLong = 130L;       // range de -2**63 até 2**63-1
             
-            byte tipoByte = 140; // range de 0 até 255
-            ushort tipoUshort = 150; // range de 0 até 65535
-            uint tipoUint = 160; // range de 0 até 2**32-1
-            ulong tipoUlong = 170; // range de 0 até 2**64-1
+            byte tipoByte = 140;        // range de 0 até 255
+            ushort tipoUshort = 150;    // range de 0 até 65535
+            uint tipoUint = 160;        // range de 0 até 2**32-1
+            ulong tipoUlong = 170;      // range de 0 até 2**64-1
             
             Console.WriteLine($"Tipo sbyte: {tipoSbyte}");
             Console.WriteLine($"Tipo short: {tipoShort}");
