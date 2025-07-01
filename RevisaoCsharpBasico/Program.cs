@@ -9,7 +9,8 @@ namespace ModuloUm
         {
             //args = new string[] { "-aula-1" };
             //args = new string[] { "-aula-2" };
-            args = new string[] { "-aula-3" };
+            //args = new string[] { "-aula-3" };
+            args = new string[] { "-aula-4" };
 
             if (args.Length == 0) 
             {
@@ -32,6 +33,12 @@ namespace ModuloUm
                     case "-aula-3":
                         AulaTres aulaTres = new AulaTres();
                         aulaTres.SaidaDeDados();
+                        break;
+                    case "-aula-4":
+                        AulaQuatro aulaQuatro = new AulaQuatro();
+                        aulaQuatro.OperadoresDeAtribuicao();
+                        aulaQuatro.ConversaoImplicita();
+                        aulaQuatro.ConversaoCasting();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");

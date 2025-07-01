@@ -9,15 +9,16 @@ namespace ModuloUm.Aulas
 {
     internal class AulaTres
     {
+        /***
+         * ========== AULA 3 ============
+         * Saída de dados em C#
+         * ToString() para delimitar casas decimais e CultureInfo
+         * Placeholders, Concatenação e Interpolação de strings
+         * ==============================
+        ***/
+
         public void SaidaDeDados()
         {
-            /***
-             * ========== AULA 3 ============
-             * Saída de dados em C#
-             * ToString() para delimitar casas decimais e CultureInfo
-             * ==============================
-            ***/
-
             // 1. ToString()
             decimal valorDecimal = 12.3456789M;
 

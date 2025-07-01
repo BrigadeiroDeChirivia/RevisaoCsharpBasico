@@ -8,15 +8,15 @@ namespace ModuloUm.Aulas
 {
     public class AulaUm
     {
+        /***
+         * ========== AULA 1 ============
+         * Tipos básicos de dados em C#
+         * (TIPOS NUMÉRICOS INTEIROS)
+         * ==============================
+        ***/
+
         public void TiposBasicos()
         {
-            /***
-             * ========== AULA 1 ============
-             * Tipos básicos de dados em C#
-             * (TIPOS NUMÉRICOS INTEIROS)
-             * ==============================
-            ***/
-
             sbyte tipoSbyte = 100;      // range de -128 até 127
             short tipoShort = 110;      // range de -32768 até 32767
             int tipoInt = 120;          // range de -2**31 até 2**31-1

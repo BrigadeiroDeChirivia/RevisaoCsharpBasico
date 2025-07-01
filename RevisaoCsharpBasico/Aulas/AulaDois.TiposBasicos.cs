@@ -8,15 +8,15 @@ namespace ModuloUm.Aulas
 {
     public class AulaDois
     {
+        /***
+         * ========== AULA 2 ============
+         * Tipos básicos de dados em C#
+         * (TIPOS NUMÉRICOS DECIMAIS, TIPOS DE TEXTO, TIPO BOOLEANO E TIPO OBJECT)
+         * ==============================
+        ***/
+
         public void TiposBasicos()
         {
-            /***
-             * ========== AULA 2 ============
-             * Tipos básicos de dados em C#
-             * (TIPOS NUMÉRICOS DECIMAIS, TIPOS DE TEXTO, TIPO BOOLEANO E TIPO OBJECT)
-             * ==============================
-            ***/
-
             // 1. TIPOS NUMÉRICOS DECIMAIS
 
             float tipoFloat = 1.5555555555555555555555555555555555555555F;      // Considera até 7 caracteres depois da vírgula
