@@ -7,13 +7,18 @@ namespace ModuloUm
     {
         public static void Main(string[] args)
         {
+            // ========== MÓDULO UM ============
+            // Aulas de Lógica de Programação
+            // =================================
+
             //args = new string[] { "-aula-1" };
             //args = new string[] { "-aula-2" };
             //args = new string[] { "-aula-3" };
             //args = new string[] { "-aula-4" };
             //args = new string[] { "-aula-5" };
             //args = new string[] { "-aula-6" };
-            args = new string[] { "-aula-7" };
+            //args = new string[] { "-aula-7" };
+            args = new string[] { "-aula-8" };
 
             if (args.Length == 0) 
             {
@@ -55,6 +60,10 @@ namespace ModuloUm
                         AulaSete aulaSete = new AulaSete();
                         aulaSete.OperadoresComparativos();
                         aulaSete.OperadoresLogicos();
+                        break;
+                    case "-aula-8":
+                        AulaOito aulaOito = new AulaOito();
+                        aulaOito.EstruturaCondicional();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");

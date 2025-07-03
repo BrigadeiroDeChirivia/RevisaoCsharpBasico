@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModuloUm.Aulas
 {
-    internal class AulaSete
+    public class AulaSete
     {
         /***
          * ========== AULA 7 ============
