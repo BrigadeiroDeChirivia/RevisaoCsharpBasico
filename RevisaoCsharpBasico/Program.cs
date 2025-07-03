@@ -11,7 +11,8 @@ namespace ModuloUm
             //args = new string[] { "-aula-2" };
             //args = new string[] { "-aula-3" };
             //args = new string[] { "-aula-4" };
-            args = new string[] { "-aula-5" };
+            //args = new string[] { "-aula-5" };
+            args = new string[] { "-aula-6" };
 
             if (args.Length == 0) 
             {
@@ -45,6 +46,10 @@ namespace ModuloUm
                         AulaCinco aulaCinco = new AulaCinco();
                         aulaCinco.OperadoresAritmeticos();
                         break;
+                        case "-aula-6":
+                            AulaSeis aulaSeis = new AulaSeis();
+                            aulaSeis.EntradaDeDados();
+                            break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
                         break;
