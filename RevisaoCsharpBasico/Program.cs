@@ -18,7 +18,8 @@ namespace ModuloUm
             //args = new string[] { "-aula-5" };
             //args = new string[] { "-aula-6" };
             //args = new string[] { "-aula-7" };
-            args = new string[] { "-aula-8" };
+            //args = new string[] { "-aula-8" };
+            args = new string[] { "-aula-9" };
 
             if (args.Length == 0) 
             {
@@ -64,6 +65,10 @@ namespace ModuloUm
                     case "-aula-8":
                         AulaOito aulaOito = new AulaOito();
                         aulaOito.EstruturaCondicional();
+                        break;
+                    case "-aula-9":
+                        AulaNove aulaNove = new AulaNove();
+                        aulaNove.MaiorDeTresNumeros();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
