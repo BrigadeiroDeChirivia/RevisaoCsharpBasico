@@ -19,7 +19,8 @@ namespace ModuloUm
             //args = new string[] { "-aula-6" };
             //args = new string[] { "-aula-7" };
             //args = new string[] { "-aula-8" };
-            args = new string[] { "-aula-9" };
+            //args = new string[] { "-aula-9" };
+            args = new string[] { "-aula-10" };
 
             if (args.Length == 0) 
             {
@@ -69,6 +70,12 @@ namespace ModuloUm
                     case "-aula-9":
                         AulaNove aulaNove = new AulaNove();
                         aulaNove.MaiorDeTresNumeros();
+                        break;
+                    case "-aula-10":
+                        AulaDez aulaDez = new AulaDez();
+                        aulaDez.ExemploWhile();
+                        aulaDez.ExemploFor();
+                        aulaDez.ExemploDoWhile();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
