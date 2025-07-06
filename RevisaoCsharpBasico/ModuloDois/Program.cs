@@ -9,9 +9,10 @@ namespace ModuloDois
         {
             // ========== MÓDULO DOIS ============
             // Aulas de Lógica de Programação
-            // =================================
+            // ===================================
 
             args = new string[] { "-aula-1" };
+            //args = new string[] { "-aula-2" };
 
             if (args.Length == 0)
             {
@@ -27,6 +28,10 @@ namespace ModuloDois
                         AulaUm aulaUm = new AulaUm();
                         aulaUm.CalcularAreaDeTriangulo();
                         break;
+                    //case "-aula-2":
+                    //    AulaDois aulaDois = new AulaDois();
+                    //    aulaDois.CalcularAreaDeCirculo();
+                    //    break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
                         break;

@@ -28,11 +28,9 @@ namespace ModuloDois.Aulas
             triangulo.B = double.Parse(Console.ReadLine() ?? "0");
             triangulo.C = double.Parse(Console.ReadLine() ?? "0");
 
-            // Calcula a área do triângulo usando a fórmula de Heron
-            double perimetro = (triangulo.A + triangulo.B + triangulo.C) / 2;
-            double area = Math.Sqrt(perimetro * (perimetro - triangulo.A) * (perimetro - triangulo.B) * (perimetro - triangulo.C));
+            triangulo.CalcularArea();
 
-            Console.WriteLine($"A área do triângulo é: {area:F2}");
+            Console.WriteLine($"A área do triângulo é: {triangulo.Area:F2}");
         }
     }
 }
