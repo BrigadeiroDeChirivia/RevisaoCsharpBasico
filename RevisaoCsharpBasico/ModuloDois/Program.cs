@@ -14,7 +14,8 @@ namespace ModuloDois
             //args = new string[] { "-aula-1" };
             //args = new string[] { "-aula-2" };
             //args = new string[] { "-aula-3" };
-            args = new string[] { "-aula-4" };
+            //args = new string[] { "-aula-4" };
+            args = new string[] { "-aula-5" };
 
             if (args.Length == 0)
             {
@@ -41,6 +42,10 @@ namespace ModuloDois
                     case "-aula-4":
                         AulaQuatro aulaQuatro = new AulaQuatro();
                         aulaQuatro.ExemploSobrecarga();
+                        break;
+                    case "-aula-5":
+                        AulaCinco aulaCinco = new AulaCinco();
+                        aulaCinco.ExemploThis();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
