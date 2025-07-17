@@ -12,6 +12,12 @@ namespace ModuloDois.Modelos
         public decimal Preco { get; set; }
         public int Quantidade { get; set; }
 
+        public Produto(string nome, decimal preco)
+        {
+            Nome = nome;
+            Preco = preco;
+        }
+
         public Produto(string nome, decimal preco, int quantidade)
         {
             Nome = nome;
