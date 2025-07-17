@@ -8,14 +8,15 @@ namespace ModuloDois
         public static void Main(string[] args)
         {
             // ========== MÓDULO DOIS ============
-            // Aulas de Lógica de Programação
+            // Aulas de Orientação a Objetos
             // ===================================
 
             //args = new string[] { "-aula-1" };
             //args = new string[] { "-aula-2" };
             //args = new string[] { "-aula-3" };
             //args = new string[] { "-aula-4" };
-            args = new string[] { "-aula-5" };
+            //args = new string[] { "-aula-5" };
+            args = new string[] { "-aula-6" };
 
             if (args.Length == 0)
             {
@@ -46,6 +47,10 @@ namespace ModuloDois
                     case "-aula-5":
                         AulaCinco aulaCinco = new AulaCinco();
                         aulaCinco.ExemploThis();
+                        break;
+                    case "-aula-6":
+                        AulaSeis aulaSeis = new AulaSeis();
+                        aulaSeis.ExemploEncapsulamento();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
