@@ -12,7 +12,8 @@ namespace ModuloDois
             // ===================================
 
             //args = new string[] { "-aula-1" };
-            args = new string[] { "-aula-2" };
+            //args = new string[] { "-aula-2" };
+            args = new string[] { "-aula-3" };
 
             if (args.Length == 0)
             {
@@ -31,6 +32,10 @@ namespace ModuloDois
                     case "-aula-2":
                         AulaDois aulaDois = new AulaDois();
                         aulaDois.ExemploMembrosEstaticos();
+                        break;
+                    case "-aula-3":
+                        AulaTres aulaTres = new AulaTres();
+                        aulaTres.ExemploConstrutores();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
