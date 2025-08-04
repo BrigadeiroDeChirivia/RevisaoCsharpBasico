@@ -10,7 +10,7 @@ namespace ModuloDois.Aulas
     public class AulaSeis
     {
         /***
-         * ========== AULA 5 ==============
+         * ========== AULA 6 ==============
          * Encapsulamento é o conceito de esconder os detalhes de implementação de uma classe,
          * expondo apenas o que é necessário para o uso da classe.
          * 

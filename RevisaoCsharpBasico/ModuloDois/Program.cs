@@ -16,7 +16,8 @@ namespace ModuloDois
             //args = new string[] { "-aula-3" };
             //args = new string[] { "-aula-4" };
             //args = new string[] { "-aula-5" };
-            args = new string[] { "-aula-6" };
+            //args = new string[] { "-aula-6" };
+            args = new string[] { "-aula-7" };
 
             if (args.Length == 0)
             {
@@ -51,6 +52,10 @@ namespace ModuloDois
                     case "-aula-6":
                         AulaSeis aulaSeis = new AulaSeis();
                         aulaSeis.ExemploEncapsulamento();
+                        break;
+                    case "-aula-7":
+                        AulaSete aulaSete = new AulaSete();
+                        aulaSete.ExemploModificadoresDeAcesso();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
