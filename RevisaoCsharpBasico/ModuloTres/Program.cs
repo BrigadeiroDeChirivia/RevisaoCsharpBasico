@@ -11,7 +11,8 @@ namespace ModuloTres
             // Aulas de Estruturas de Dados
             // ===================================
 
-            args = new string[] { "-aula-1" };
+            //args = new string[] { "-aula-1" };
+            args = new string[] { "-aula-2" };
 
             if (args.Length == 0)
             {
@@ -28,6 +29,11 @@ namespace ModuloTres
                         aulaUm.ExemploDeTipoValor();
                         aulaUm.ExemploDeTipoReferencia();
                         aulaUm.ExemploDeStruct();
+                        break;
+                    case "-aula-2":
+                        AulaDois aulaDois = new AulaDois();
+                        aulaDois.ValoresNullable();
+                        aulaDois.OperadorDeCoalescenciaNula();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
