@@ -12,7 +12,8 @@ namespace ModuloTres
             // ===================================
 
             //args = new string[] { "-aula-1" };
-            args = new string[] { "-aula-2" };
+            //args = new string[] { "-aula-2" };
+            args = new string[] { "-aula-3" };
 
             if (args.Length == 0)
             {
@@ -34,6 +35,11 @@ namespace ModuloTres
                         AulaDois aulaDois = new AulaDois();
                         aulaDois.ValoresNullable();
                         aulaDois.OperadorDeCoalescenciaNula();
+                        break;
+                    case "-aula-3":
+                        AulaTres aulaTres = new AulaTres();
+                        aulaTres.ExemploDeVetorDeStruct();
+                        aulaTres.ExemploDeVetorDeObjetos();
                         break;
                     default:
                         Console.WriteLine("Nenhuma opção foi passada como argumento.");
